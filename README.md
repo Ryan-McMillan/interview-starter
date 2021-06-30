@@ -1,4 +1,4 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+A svelte starter project for an interview using svelte-template with some depdendencies added.
 
 ---
 
