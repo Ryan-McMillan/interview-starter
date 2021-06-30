@@ -1,10 +1,15 @@
 <script>
     import Tailwind from "./Tailwind.svelte";
+    // Warning: Add icons directly instead of "import {Add16}"
+    //          or build times get SLOOOOOOOOWWWWWWW
+    import Add16 from "carbon-icons-svelte/lib/Add16";
+    import axios from "axios";
     export let name;
 </script> 
 
 <Tailwind />
 <main>
+    <Add16 />
     <h1 class="font-sans">Hello {name}! [sans]</h1>
     <h1 class="font-serif">Hello {name}! [serif]</h1>
     <h1 class="font-mono">Hello {name}! [mono]</h1>
