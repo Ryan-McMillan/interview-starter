@@ -10,7 +10,7 @@
 <Tailwind />
 <main>
     <Add16 />
-    <h1 class="font-sans">Hello {name}! [sans]</h1>
+    <h1 class="font-sans">Hello Test {name}! [sans]</h1>
     <h1 class="font-serif">Hello {name}! [serif]</h1>
     <h1 class="font-mono">Hello {name}! [mono]</h1>
     <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
